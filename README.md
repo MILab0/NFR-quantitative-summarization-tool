@@ -30,7 +30,7 @@ Ex.)
 出力ファイル：/content/drivr/MyDrive/output.xlsx
 
 Ex.)  
-![Output_Image](images/output_image.png)
+![Output_Image](images/output_image.PNG)
 
 
 ## Types of NFR 

@@ -1,6 +1,6 @@
 # 非機能要求要求自動要約ツール
  
-「Convolutional Neural Networkとドメインオントロジーを用いた定量的視点による非機能要求の要約手法の提案」の文献内で使用している非機能要求自動要約ツールのソースコードです。
+要求仕様書に含まれる非機能要求を入力として，Convolutional Neural Networkとドメインオントロジーに基づく2つの⾃動⽂書分類技術を組み合せ，⾮機能要求の⾃動分類結果を定量的観点で視覚化することで要約データを⽣成するツールです[1]．
 
 # Requirements
  
@@ -17,8 +17,39 @@
 
 # Usage
 
-Word2Vecモデル、文献内で使用したPROMISE Datasetを用意し、GoogleColaboratoryを用いて実行します。
- 
-# Note
+学習データ，テストデータを準備する必要があります．  
+学習データ：/content/drivr/MyDrive/dataset/convert_dataset_train.txt  
+テストデータ：/content/drivr/MyDrive/dataset/convert_dataset_test.txt  
+学習データ，テストデータは以下のフォーマットでテキストファイルを作成します．
 
-Word2Vecモデル、PROMISE Datasetについては本研究における成果物ではないため入手元の情報を提示しておりません。
+Ex.)  
+```O: This system must operate 24 h a day, 365 days a year.```  
+```A: This system ...```  
+
+グラフを含めた定量要約結果は以下のファイルに出力されます。
+出力ファイル：/content/drivr/MyDrive/output.xlsx
+
+Ex.)  
+![Output_Image](images/output_image.png)
+
+
+## Types of NFR 
+|  symbol  |  type  |
+| ---- | ---- |
+|  A  |  Availability  |
+|  FT  |  Fault tolerance  |
+|  SC  |  Scalability  |
+|  PE  |  Performance  |
+|  O  |  Operational  |
+|  MN  |  Maintainability  |
+|  PO  |  Portability  |
+|  SE  |  Security  |
+|  LF  |  Look and feel  |
+|  US  |  Usability  |
+|  L  |  Legal  |
+
+ツールはmain.ipynbをgoogleDriveにアップロードしGoogleColaboratoryを用いて実行します．
+
+# Author
+
+[1] 齋川祐太, 長岡武志, 北川貴之, 位野木万里, Convolutional Neural Networkとドメインオントロジーを用いた定量的視点による非機能要求の要約手法の提案, 第84回情報処理全国大会, 情報処理学会, 2022.

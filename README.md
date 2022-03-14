@@ -2,7 +2,7 @@
  
 「Convolutional Neural Networkとドメインオントロジーを用いた定量的視点による非機能要求の要約手法の提案」の文献内で使用している非機能要求自動要約ツールのソースコードです。
 
-# Requirement
+# Requirements
  
 * Ubunty 18.04.5 LTS
 * Python 3.7.10

@@ -27,7 +27,13 @@ Ex.)
 ```A: This system ...```  
 
 グラフを含めた定量要約結果は以下のファイルに出力されます。
-出力ファイル：/content/drivr/MyDrive/output.xlsx
+定量要約レポート：/content/drivr/MyDrive/output.xlsx
+各要求分類数：/content/drivr/MyDrive/output_reqCount.csv
+分類精度精度：/content/drivr/MyDrive/output_score.csv
+入力データのオントロジー分類確率：/content/drivr/MyDrive/output_ontology.csv
+入力データのCNN分類確率：/content/drivr/MyDrive/output_cnn.csv
+入力データの合議アルゴリズム分類確率：/content/drivr/MyDrive/output_cons.csv
+
 
 Ex.)  
 ![Output_Image](images/output_image.PNG)

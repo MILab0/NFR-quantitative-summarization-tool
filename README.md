@@ -35,7 +35,7 @@ Ex.)
 ```A: 要求記述``` 
 
 ## 出力データについて
-グラフを含めた定量要約結果、各種分類結果の内容は以下のファイルに出力されます。
+グラフを含めた定量要約結果、各種分類結果の内容は以下のファイルに出力されます。<br>
 ・定量要約レポート：/content/drivr/MyDrive/output.xlsx
 ・各要求分類数：/content/drivr/MyDrive/output_reqCount.csv
 ・分類精度精度：/content/drivr/MyDrive/output_score.csv

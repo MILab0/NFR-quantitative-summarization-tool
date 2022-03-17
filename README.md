@@ -54,10 +54,10 @@ Ex.)
 > CNN、オントロジー、合議アルゴリズムそれぞれで分類を行い各要求の分類精度Passrate(正解率)、precision(各要求ごとの適合率)、Recall(各要求ごとの再現率)、F1Score(各要求ごとのF値)、AnsTop3(上位3位正解率)を出力したものです。
 
 入力データのオントロジー分類確率：/content/drivr/MyDrive/output_ontology.csv 
-> 各要求のオントロジー分類確率を出力したものです。No.列の項番はテストデータ(convert_dataset_test.txt)の行数と連動しています。
+> 各要求のオントロジー分類確率を出力したものです。No.列の項番はテストデータ(convert_dataset_test.txt)の行数（何行目に相当するか）と連動しています。
 
 入力データのCNN分類確率：/content/drivr/MyDrive/output_cnn.csv 
-> 各要求のCNN分類確率を出力したものです。No.列の項番はテストデータ(convert_dataset_test.txt)の行数と連動しています。
+> 各要求のCNN分類確率を出力したものです。No.列の項番はテストデータ(convert_dataset_test.txt)の行数（何行目に相当するか）と連動しています。
 
 入力データの合議アルゴリズム分類確率：/content/drivr/MyDrive/output_cons.csv
 > 各要求のオントロジー、CNNの分類確率を元に順位付けを行う合議アルゴリズムの結果を出力したものです。No.列の項番はテストデータ(convert_dataset_test.txt)の行数と連動しています。

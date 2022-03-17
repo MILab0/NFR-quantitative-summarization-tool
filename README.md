@@ -36,12 +36,12 @@ Ex.)
 
 ## 出力データについて
 グラフを含めた定量要約結果、各種分類結果の内容は以下のファイルに出力されます。<br>
-・定量要約レポート：/content/drivr/MyDrive/output.xlsx
-・各要求分類数：/content/drivr/MyDrive/output_reqCount.csv
-・分類精度精度：/content/drivr/MyDrive/output_score.csv
-・入力データのオントロジー分類確率：/content/drivr/MyDrive/output_ontology.csv
-・入力データのCNN分類確率：/content/drivr/MyDrive/output_cnn.csv
-・入力データの合議アルゴリズム分類確率：/content/drivr/MyDrive/output_cons.csv
+・定量要約レポート：/content/drivr/MyDrive/output.xlsx <br>
+・各要求分類数：/content/drivr/MyDrive/output_reqCount.csv <br>
+・分類精度精度：/content/drivr/MyDrive/output_score.csv <br>
+・入力データのオントロジー分類確率：/content/drivr/MyDrive/output_ontology.csv <br>
+・入力データのCNN分類確率：/content/drivr/MyDrive/output_cnn.csv <br>
+・入力データの合議アルゴリズム分類確率：/content/drivr/MyDrive/output_cons.csv <br>
 
 ### 各種出力ファイルの説明
 定量要約レポート
